@@ -10,7 +10,7 @@ DB_CONFIG = {
     # skip collection `system.profile`, even if it has been explicit
     # specified).
     "target_collections": [],
-    "oplog_server": {
+    "oplog_servers": {
         "mongodb_uri": "mongodb://localhost:27017"
     },
     # In most cases you will record from the profile DB on the primary
